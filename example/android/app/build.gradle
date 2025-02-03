@@ -28,6 +28,7 @@ apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 android {
     compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
+    namespace "com.northladder.qr_bar_code_scanner_dialog"
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
